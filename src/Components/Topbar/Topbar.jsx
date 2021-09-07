@@ -10,7 +10,7 @@ export default function Topbar() {
                     </a>
                 </div>
                 <div className="rightside">
-                This is right side
+                This is right
                 </div>
             </div>
         </div>
