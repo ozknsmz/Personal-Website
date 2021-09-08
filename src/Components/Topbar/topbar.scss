@@ -1,23 +1,54 @@
-.Topbar{
-    width: 100vw;
-    height: 70px;
-    background-color: antiquewhite;
-    position: fixed;
-    top: 0;
-    z-index: 2;
+header{
+    width: 1280px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
 
-    .wrapper{
-        padding: 10px 30px;
+    .Topbar{
+        width: 100%;
+        height: 70px;
+        background-color: white;
+        position: sticky;
+        top: 0;
         display: flex;
         align-items: center;
         justify-content: space-between;
-    }
-    .leftside{
-        .logo{
-            font-size: 40px;
-            font-weight: 700;
-            text-decoration: none;
-            color: inherit;
+        .topleft{
+            a{
+                text-decoration: none;
+            }
         }
+        .topright{
+            li{
+                display: flex;
+                justify-content: flex-end;
+                text-decoration: none;
+                font-weight: 600;
+                
+                &:hover {
+                text-decoration: underline;
+                transition: 0.5s;
+            }
+          
+            }
+            
+        .toprightList{
+                display: flex;
+                justify-content: center;
+                margin: 0;
+                padding: 0;
+                list-style: none;
+    
+        .toprightListItem{
+                margin-right: 20px;
+                font-size: 16px;
+                font-weight: 300;
+                cursor: pointer;
+                }
+            }
+        }
+    
     }
+    
 }
+

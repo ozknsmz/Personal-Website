@@ -1,5 +1,5 @@
 import Topbar from "./Components/Topbar/Topbar";
-import Intro from "./Components/Intro/Intro";
+import Header from "./Components/Header/Header";
 import Portfolio from "./Components/Portfolio/Portfolio";
 import Works from "./Components/Works/Works";
 import Testimonials from "./Components/Testimonials/Testimonials";
@@ -12,11 +12,8 @@ function App() {
     <div className="app">
       <Topbar/>
      <div className="sections">
-      <Intro/>
+      <Header/>
       <Portfolio/>
-      <Works/>
-      <Testimonials/>
-      <Contact/>
      </div>
     </div>
   );

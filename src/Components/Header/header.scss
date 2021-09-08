@@ -1,0 +1,35 @@
+.Header{
+    background-color: antiquewhite;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+    }
+}
+
+.headerTitles{
+
+    .container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: #444;
+        position: absolute;
+        width: 1080px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .headerTitleLg{
+        color: white;
+        font-size: 70px;
+        font-weight: 900;
+        margin-bottom: 40px;
+    }
+    .headerTitleSm{
+        font-weight: 900;
+        color: white;
+        font-size: 25px;
+    }
+}
