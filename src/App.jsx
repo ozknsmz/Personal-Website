@@ -1,6 +1,6 @@
 import Topbar from "./Components/Topbar/Topbar";
 import Header from "./Components/Header/Header";
-import Portfolio from "./Components/Portfolio/Portfolio";
+import About from "./Components/About/About";
 import Works from "./Components/Works/Works";
 import Testimonials from "./Components/Testimonials/Testimonials";
 import Contact from "./Components/Contact/Contact";
@@ -13,7 +13,7 @@ function App() {
       <Topbar/>
      <div className="sections">
       <Header/>
-      <Portfolio/>
+      <About/>
      </div>
     </div>
   );
