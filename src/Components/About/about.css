@@ -1,0 +1,216 @@
+.About {
+  padding: 50px 0;
+  background-color: #F9F9F9;
+}
+
+@media screen and (max-width: 1200px) {
+  .About .container {
+    max-width: 1065px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .About .container {
+    max-width: 880px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .About .container .about-right-part {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .About .container .about-right-part .about-right-col {
+    padding-top: 30px;
+  }
+}
+
+.About .container .about-right-part .about-right-col .skills-title {
+  display: none;
+  padding-bottom: 10px;
+  color: #111;
+  font-family: Helvetica Neue;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 800px) {
+  .About .container .about-right-part .about-right-col .skills-title {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .About .container .row {
+    margin-top: 0;
+  }
+}
+
+.About .container .row .col .colImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.About .container .row .col .colImg img {
+  text-align: center;
+  width: 240px;
+  height: 240px;
+  margin: 0 auto 30px;
+  border-radius: 50%;
+  padding: 8px;
+  background: #dddddd none repeat scroll 0 0;
+}
+
+@media screen and (max-width: 800px) {
+  .About .container .row .col .colImg img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.About .container .row .col h1 {
+  color: #111;
+  font-family: Helvetica Neue;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.About .container .row .col p {
+  font-family: Helvetica Neue;
+  line-height: 1.6;
+  color: #777;
+  margin: 0;
+}
+
+.About .container .row .col ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.About .container .row .col ul li {
+  color: #333;
+  display: inline-block;
+  margin-top: 15px;
+  width: 49%;
+}
+
+@media screen and (max-width: 1200px) {
+  .About .container .row .col ul li {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1058px) {
+  .About .container .row .col ul li {
+    width: 100%;
+  }
+}
+
+.About .container .row .col ul li a {
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.About .container .row .col ul li a:hover {
+  letter-spacing: 3px;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.About .container .row .col button {
+  margin-top: 30px;
+}
+
+.About .skillbarfill {
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+}
+
+.About .skillbarfill .skill {
+  margin-bottom: 35px;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.About .skillbarfill .skill p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a1716;
+  margin: 0;
+}
+
+.About .skillbarfill .skill::before {
+  width: 100%;
+  height: 5px;
+  content: "";
+  display: block;
+  position: absolute;
+  background: #959595;
+  bottom: 0;
+}
+
+.About .skillbarfill .skill .skill-bar {
+  width: 100%;
+  height: 5px;
+  background: #222 none repeat scroll 0 0 !important;
+  display: block;
+  position: relative;
+}
+
+.About .skillbarfill .skill .skill-bar span {
+  position: absolute;
+  top: -30px;
+  padding: 0;
+  font-size: 18px;
+  padding: 3px 0;
+  font-weight: 500;
+}
+
+.About .skillbarfill .skill .skill-bar {
+  position: relative;
+}
+
+.About .skillbarfill .skill .skill1 {
+  width: 95%;
+  -webkit-transition: width 2s ease-in-out 0s;
+  transition: width 2s ease-in-out 0s;
+}
+
+.About .skillbarfill .skill .skill1 .skill-count1 {
+  right: 0;
+}
+
+.About .skillbarfill .skill .skill2 {
+  width: 85%;
+}
+
+.About .skillbarfill .skill .skill2 .skill-count2 {
+  right: 0;
+}
+
+.About .skillbarfill .skill .skill3 {
+  width: 60%;
+}
+
+.About .skillbarfill .skill .skill3 .skill-count3 {
+  right: 0;
+}
+
+.About .skillbarfill .skill .skill4 {
+  width: 80%;
+}
+
+.About .skillbarfill .skill .skill4 .skill-count4 {
+  right: 0;
+}
+/*# sourceMappingURL=about.css.map */

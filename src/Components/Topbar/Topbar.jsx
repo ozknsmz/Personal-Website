@@ -6,7 +6,7 @@ export default function Topbar() {
         <header>
             <div className="Topbar" id="topbar">
                 <div className="topleft">
-                    <a href="">ozknsmz.<span className="logo"></span></a>
+                    ozknsmz.
                 </div>
                 <div className="topright">
                 <div className="toprightList">
@@ -17,6 +17,7 @@ export default function Topbar() {
                         <li className="toprightListItem">CONTACT</li>
                     </div>
                 </div>
+                <a href=""><i class="fas fa-bars"></i></a>
             </div>
         </header>
     )

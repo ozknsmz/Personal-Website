@@ -1,0 +1,131 @@
+header {
+  width: 1280px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+
+@media screen and (max-width: 1300px) {
+  header {
+    width: 1000px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  header {
+    width: 800px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  header {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  header {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  header {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  header {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  header {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  header {
+    width: 300px;
+  }
+}
+
+header .Topbar {
+  height: 70px;
+  width: 100%;
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .Topbar .topleft a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 650px) {
+  header .Topbar .topright {
+    display: none;
+  }
+}
+
+header .Topbar .topright li {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  text-decoration: none;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .Topbar .topright li:hover {
+  text-decoration: underline;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header .Topbar .topright .toprightList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header .Topbar .topright .toprightList .toprightListItem {
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+header a {
+  font-size: 30px;
+  display: none;
+  color: inherit;
+}
+
+@media screen and (max-width: 650px) {
+  header a {
+    display: block;
+  }
+}
+/*# sourceMappingURL=topbar.css.map */

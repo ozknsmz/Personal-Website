@@ -1,0 +1,77 @@
+.Resume{
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+.education-title{
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    color: white;
+    }
+
+.timeline{
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    &::after{
+        content: "";
+        position: absolute;
+        width: 3px;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 50%;
+        background-color: white;
+        margin-left: -3px;
+    }
+.timeline-container{
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+    &::after{
+        content: "";
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        right: -6px;
+        background-color: white;
+        border: 1px solid black;
+        top: 58px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+.education-part{
+    padding: 18px;
+    border: solid 1px;
+    border-radius: 20px;
+    box-shadow: 2px 0px 10px 2px darkblue;
+    
+.resume-item{
+    color: white;
+    .item-title{
+        font-weight: 600;
+        }
+        .item-details{
+            padding-bottom: 5px;
+            font-size: 15px;
+        }  
+    }
+}    
+}
+
+.left{
+    left: 0;
+}
+.right{
+    left: 50%;
+    &::after{
+        left: -9px;
+    }
+}  
+
+  }
+}

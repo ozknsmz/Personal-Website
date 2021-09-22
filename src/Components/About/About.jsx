@@ -14,7 +14,7 @@ export default function About() {
                     </div>
                 </div>
 
-                <div className="row">
+                <div className="about-right-part row">
                     <div id="about-left-col" className="col">
                         <h1>Hi There, I'm Özkan Semiz</h1>
                         <p>Hello, I am a web developer based in Ankara and happy to travel all over Europe to capture your big day in candid and authentic photos. I will create a lasting memory of the people.</p>
@@ -32,13 +32,16 @@ export default function About() {
                                 : +1-202-555-0138
                             </li>
                             <li>
-                                <span><i class="fa fa-envelope"></i> Email </span>
-                                <a href="mailto:ozknsmz@hotmail.com">ozknsmz@hotmail.com</a>
+                                <span><i class="fa fa-envelope"></i> Email :<a href="mailto:ozknsmz@hotmail.com">ozknsmz@hotmail.com</a> </span>
+                                
                             </li>
                         </ul>
                         <button type="button" class="btn btn-secondary">Learn More</button>
                     </div>
-                    <div className="col">
+                    <div className="about-right-col col">
+                        <h2 className="skills-title">
+                            Skills Bar
+                        </h2>
                         <div className="skillbarfill">
                             <div className="skill">
                                 <p>HTML5/CSS3</p>
