@@ -1,7 +1,7 @@
 .Contact {
   background-color: #f9f9f9;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 @media screen and (max-width: 991px) {
@@ -31,7 +31,7 @@
 }
 
 .Contact .container .form-submit button {
-  background-color: green;
+  background-color: #30475E;
   width: 25%;
   border-radius: 20px;
   line-height: 1.8;
@@ -98,7 +98,7 @@
 }
 
 .Contact .container .contact-info ul li i {
-  color: green;
+  color: #30475E;
   font-size: 35px;
   padding-bottom: 18px;
 }

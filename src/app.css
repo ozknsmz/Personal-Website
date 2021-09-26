@@ -2,6 +2,10 @@
   height: 100vh;
 }
 
+.app * {
+  font-family: montserrat,sans-serif;
+}
+
 .app .sections {
   width: 100%;
   height: calc( 100vh - 70px);

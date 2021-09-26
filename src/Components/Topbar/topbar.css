@@ -7,19 +7,19 @@ header {
 
 @media screen and (max-width: 1300px) {
   header {
-    width: 1000px;
+    width: 1100px;
   }
 }
 
 @media screen and (max-width: 1150px) {
   header {
-    width: 800px;
+    width: 900px;
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 810px) {
   header {
-    width: 600px;
+    width: 750px;
   }
 }
 
@@ -71,8 +71,9 @@ header .Topbar {
           justify-content: space-between;
 }
 
-header .Topbar .topleft a {
-  text-decoration: none;
+header .Topbar .topleft img {
+  font-size: 10px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 650px) {
@@ -85,17 +86,25 @@ header .Topbar .topright li {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  text-decoration: none;
-  font-weight: 600;
+  font-weight: 300;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 5px;
+  border-radius: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
 }
 
 header .Topbar .topright li:hover {
-  text-decoration: underline;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  background-color: #DDDDDD;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  color: #30475E;
 }
 
 header .Topbar .topright .toprightList {
@@ -110,11 +119,16 @@ header .Topbar .topright .toprightList {
   list-style: none;
 }
 
-header .Topbar .topright .toprightList .toprightListItem {
-  margin-right: 20px;
-  font-size: 16px;
-  font-weight: 300;
-  cursor: pointer;
+@media screen and (max-width: 1100px) {
+  header .Topbar .topright .toprightList .toprightListItem {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  header .Topbar .topright .toprightList .toprightListItem {
+    font-size: 13px;
+  }
 }
 
 header a {

@@ -1,18 +1,20 @@
 import "./topbar.scss"
-import logo from "./logo.png"
+import logo from "./me-logo.png"
+
 
 export default function Topbar() {
     return (
         <header>
             <div className="Topbar" id="topbar">
                 <div className="topleft">
-                    ozknsmz.
+                    <img src={logo} alt="" />
                 </div>
                 <div className="topright">
                 <div className="toprightList">
                         <li className="toprightListItem">HOMEPAGE</li>
                         <li className="toprightListItem">ABOUT</li>
-                        <li className="toprightListItem">WORKS</li>
+                        <li className="toprightListItem">RESUME</li>
+                        <li className="toprightListItem">PORTFOLİO</li>
                         <li className="toprightListItem">BLOG</li>
                         <li className="toprightListItem">CONTACT</li>
                     </div>

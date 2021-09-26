@@ -29,14 +29,14 @@ export default function About() {
                             </li>
                             <li>
                                 <span><i class="fa fa-phone"></i> Phone </span>
-                                : +1-202-555-0138
+                                : +90 544 343 1430
                             </li>
                             <li>
                                 <span><i class="fa fa-envelope"></i> Email :<a href="mailto:ozknsmz@hotmail.com">ozknsmz@hotmail.com</a> </span>
                                 
                             </li>
                         </ul>
-                        <button type="button" class="btn btn-secondary">Learn More</button>
+                        <button type="button" class="btn btn-secondary">Download CV</button>
                     </div>
                     <div className="about-right-col col">
                         <h2 className="skills-title">

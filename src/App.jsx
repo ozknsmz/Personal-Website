@@ -8,21 +8,17 @@ import Resume from "./Components/Resume/Resume"
 import "./app.scss"
 import "bootstrap/dist/css/bootstrap.min.css"
 
-
-
 function App() {
   return (
     <div className="app">
       <Topbar/>
      <div className="sections">
-        {/* <Header/>  */}
-       <About/> 
-     {/* <Blog/>   */}
-     {/* <Resume/> */}
-      {/* <Works/>  */}
-      {/* <Contact/> */}
-
-      
+       {/* <Header/>   */}
+       <About/>
+       <Resume/> 
+       <Works/>
+       {/* <Blog/>   */}
+      <Contact/> 
      </div>
     </div>
   );

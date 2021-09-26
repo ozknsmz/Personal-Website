@@ -3,6 +3,9 @@ import './contact.scss'
 export default function Contact() {
     return (
         <div className="Contact" id="contact">
+            <h3 className="education-title">
+                CONTACT
+            </h3>
             <div className="container">
                 <div className="row">
                     <div className="col-12">
@@ -48,25 +51,25 @@ export default function Contact() {
                                                 <li>
                                                     <span><i class="fa fa-calendar"><br /></i></span>
                                                     <div className="info-details">
-                                                    <h6 className="info-type">Location</h6>
+                                                        <h6 className="info-type">Location</h6>
                                                         <span class="info-value">Ankara / Turkey</span>
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <span><i class="fa fa-phone"></i></span>
                                                     <div className="info-details">
-                                                    <h6 className="info-type">Phone</h6>
+                                                        <h6 className="info-type">Phone</h6>
                                                         <span class="info-value">+90 544 343 1430</span>
                                                     </div>
-                                                    
+
                                                 </li>
                                                 <li>
                                                     <span><i class="fa fa-envelope"></i></span>
                                                     <div className="info-details">
-                                                    <h6 className="info-type">Email</h6>
+                                                        <h6 className="info-type">Email</h6>
                                                         <a href="mailto:ozknsmz@hotmail.com">ozknsmz@hotmail.com</a>
                                                     </div>
-                                                    
+
                                                 </li>
                                             </ul>
                                         </div>
