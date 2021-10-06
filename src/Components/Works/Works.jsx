@@ -1,5 +1,5 @@
 import "./works.scss"
-import aybuHome2 from "./webdev.png"
+import aybuHome2 from "../images/webdev.png"
 
 
 export default function works() {

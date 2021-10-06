@@ -1,5 +1,5 @@
 import "./about.scss"
-import aboutImg from "./about.png"
+import aboutImg from "../images/about.png"
 
 export default function About() {
     return (

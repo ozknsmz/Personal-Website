@@ -1,5 +1,4 @@
 import "./Blog.scss"
-import image from "./html.jpg"
 
 export default function Blog() {
     return (

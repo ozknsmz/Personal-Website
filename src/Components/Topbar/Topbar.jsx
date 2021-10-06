@@ -1,5 +1,5 @@
 import "./topbar.scss"
-import logo from "./me-logo.png"
+import logo from "../images/me-logo.png"
 
 
 export default function Topbar() {
