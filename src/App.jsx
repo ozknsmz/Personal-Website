@@ -6,13 +6,15 @@ import Blog from "./Components/Blog/Blog";
 import Contact from "./Components/Contact/Contact";
 import Resume from "./Components/Resume/Resume"
 import Footer from "./Components/Footer/Footer"
-import "./app.scss"
+import CircleLoader from "react-spinners/CircleLoader";
 import "bootstrap/dist/css/bootstrap.min.css"
 import React, {useState, useEffect} from 'react'
-import CircleLoader from "react-spinners/CircleLoader";
 import { css } from "@emotion/react";
+import "./app.scss"
 
 function App() {
+
+  /* Function to spinner part */
   const [loading, setLoading] = useState(true);
 
   useEffect(()=>{
@@ -22,6 +24,7 @@ function App() {
       },2000)
   },[]);
 
+/* Css properties of spinner */
   const spinnerCss = css`
   border-color: red;
   color: #36D7B7;
