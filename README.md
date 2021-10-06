@@ -1,2 +1,2 @@
 # Personal Website
- Aim of the projects is that to share all works
+ This project is a personal website developed with React for blog sharing and showing the work done.
