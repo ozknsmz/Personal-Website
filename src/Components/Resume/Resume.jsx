@@ -13,7 +13,7 @@ export default function Resume() {
             <div className="resume-item">
               <h5 className="item-title">Ankara Yıldırım Beyazıt Univeristy</h5>
               <span><div className="item-details">Computer Engineering / 2017 - Present </div></span>
-              <div className="item-description">GPA : 2.91 / 4.00</div>
+              <div className="item-description">GPA : 3.05 / 4.00</div>
             </div>
           </div>
 

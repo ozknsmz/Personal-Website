@@ -3,11 +3,13 @@
         font-family: montserrat,sans-serif;
     }
     height: 100vh;
+    background-color: black;
 
     .sections{
         width: 100%;
         height: calc( 100vh - 70px);
         background-color: white;
-        position: relative;        
+        position: relative;      
+       
     }
 }

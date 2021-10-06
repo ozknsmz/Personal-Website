@@ -1,13 +1,15 @@
 .Resume {
-  background-color: #F9F9F9;
+  background-color: #232931;
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
 .Resume .education-title {
   text-align: center;
-  margin-bottom: 20px;
-  padding-top: 20px;
+  margin-bottom: 50px;
+  color: #FFF;
+  font-size: 26pt;
+  font-weight: 700;
 }
 
 .Resume .timeline {
@@ -47,25 +49,6 @@
   }
 }
 
-.Resume .timeline .timeline-container::after {
-  content: "";
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  right: -6px;
-  background-color: #30475E;
-  border: 1px solid black;
-  top: 58px;
-  border-radius: 50%;
-  z-index: 1;
-}
-
-@media screen and (max-width: 500px) {
-  .Resume .timeline .timeline-container::after {
-    display: none;
-  }
-}
-
 .Resume .timeline .timeline-container .education-part {
   padding: 18px;
   border: solid 1px;
@@ -86,18 +69,22 @@
 
 .Resume .timeline .timeline-container .education-part .resume-item .item-title {
   font-weight: 600;
-  color: #30475E;
-  font-size: 1.4rem;
+  color: inherit;
+  font-size: 1rem;
+  text-transform: uppercase;
 }
 
 .Resume .timeline .timeline-container .education-part .resume-item .item-details {
   padding-bottom: 5px;
-  font-size: 1rem;
-  color: #30475E;
+  font-size: 0.8rem;
+  color: #78CC6D;
+  font-weight: 600;
 }
 
 .Resume .timeline .timeline-container .education-part .resume-item .item-description {
-  color: #30475E;
+  color: inherit;
+  padding-top: 10px;
+  font-size: 0.875rem;
 }
 
 .Resume .timeline .left {

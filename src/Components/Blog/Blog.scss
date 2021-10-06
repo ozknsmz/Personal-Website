@@ -1,8 +1,17 @@
 .Blog{    
     background-color: #F9F9F9;
+    padding-top: 50px;
+    padding-bottom: 50px;
     .container{
         #post-list{
             margin-top: 20px;
+        }
+        .education-title{
+            text-align: center;
+            margin-bottom: 20px;
+            color: #30475E;
+            font-size: 26pt;
+            font-weight: 700;
         }
         .row{
         .col-md-12{
@@ -58,7 +67,7 @@
                 color: black;
     
                 &:hover{
-                    background-color: black;
+                    background-color:#30475E;
                     color: white;
                     transition: all ease 0.5s;
                 }
@@ -76,7 +85,7 @@
                     height: auto;
                 }
                 .post-date{
-                    background: #212121 none repeat scroll 0 0;
+                    background: #30475E none repeat scroll 0 0;
                     color: #fff;
                     font-size: 16px;
                     height: 60px;

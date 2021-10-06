@@ -5,14 +5,9 @@ export default function Blog() {
     return (
         <div className="Blog" id="blog">
             <div className="container">
-
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="blog-heading">
-                            <h2>BLOG</h2>
-                        </div>
-                    </div>
-                </div>
+            <h3 className="education-title">
+               BLOG
+            </h3>
 
                 <div id="list-items" className="row">
                     <ul>

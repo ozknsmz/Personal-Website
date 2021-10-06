@@ -1,8 +1,6 @@
 import "./works.scss"
-import aybuHome from "./BiltekHomepage.png"
 import aybuHome2 from "./webdev.png"
-import alumniHome from "./AlumniHome.jpg"
-import eventHome from "./EventHomepage2.jpeg"
+
 
 export default function works() {
 
@@ -10,7 +8,7 @@ export default function works() {
       <div className="Works">
          <div className="container">
             <h3 className="education-title">
-               WORKS 
+               WORKS
             </h3>
             <div className="row">
                <div className="col-md-4">
@@ -25,6 +23,9 @@ export default function works() {
                      </a>
                      <h4>Biltek Website</h4>
                      <p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's standard dummy text ever.</p>
+                     <div class="works-read-me">
+                        <a href="#"><span>Read More</span></a>
+                     </div>
                   </div>
                </div>
                <div className="col-md-4">
@@ -39,6 +40,9 @@ export default function works() {
                      </a>
                      <h4>Biltek BTG Website</h4>
                      <p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's standard dummy text ever.</p>
+                     <div class="works-read-me">
+                        <a href="#"><span>Read More</span></a>
+                     </div>
                   </div>
                </div>
                <div className="col-md-4">
@@ -53,6 +57,9 @@ export default function works() {
                      </a>
                      <h4>AYBU Alumni App</h4>
                      <p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's standard dummy text ever.</p>
+                     <div class="works-read-me">
+                        <a href="#"><span>Read More</span></a>
+                     </div>
                   </div>
                </div>
             </div>
@@ -69,6 +76,9 @@ export default function works() {
                      </a>
                      <h4>Event Tracking System</h4>
                      <p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's standard dummy text ever.</p>
+                     <div class="works-read-me">
+                        <a href="#"><span>Read More</span></a>
+                     </div>
                   </div>
                </div>
                <div className="col-md-4">
@@ -83,6 +93,9 @@ export default function works() {
                      </a>
                      <h4>Web Development</h4>
                      <p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's standard dummy text ever.</p>
+                     <div class="works-read-me">
+                        <a href="#"><span>Read More</span></a>
+                     </div>
                   </div>
                </div>
                <div className="col-md-4">
@@ -97,6 +110,9 @@ export default function works() {
                      </a>
                      <h4>Web Development</h4>
                      <p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's standard dummy text ever.</p>
+                     <div class="works-read-me">
+                        <a href="#"><span>Read More</span></a>
+                     </div>
                   </div>
                </div>
             </div>

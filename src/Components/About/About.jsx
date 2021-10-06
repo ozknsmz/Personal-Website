@@ -46,25 +46,21 @@ export default function About() {
                             <div className="skill">
                                 <p>HTML5/CSS3</p>
                                 <div class="skill-bar skill1 wow slideInLeft animated">
-                                    <span class="skill-count1">95%</span>
                                 </div>
                             </div>
                             <div className="skill">
                                 <p>JAVA</p>
                                 <div class="skill-bar skill2 wow slideInLeft animated">
-                                    <span class="skill-count2">85%</span>
                                 </div>
                             </div>
                             <div className="skill">
                                 <p>JAVASCRIPT</p>
                                 <div class="skill-bar skill3 wow slideInLeft animated">
-                                    <span class="skill-count3">75%</span>
                                 </div>
                             </div>
                             <div className="skill">
                                 <p>C</p>
                                 <div class="skill-bar skill4 wow slideInLeft animated">
-                                    <span class="skill-count4">65%</span>
                                 </div>
                             </div>
 
