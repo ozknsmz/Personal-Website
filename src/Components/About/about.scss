@@ -1,156 +1,165 @@
-.About{
+.About {
     padding: 50px 0;
-    background-color: #F9F9F9;
-    padding-top: 100px;
-    padding-bottom: 100px;
-.container{
+    background-color: #000000;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  .container {
     @media screen and (max-width: 1200px) {
-        max-width: 1065px;
-        }
+    max-width: 1065px;
+    }
     @media screen and (max-width: 991px) {
-        max-width: 880px;
-        }
-
-    .about-right-part{
-        @media screen and (max-width: 800px) {
-            display: block;
-        }
-
-    .about-right-col{
-        @media screen and (max-width: 800px) {
-            padding-top: 30px;
-        }
-    .skills-title{
-        display: none;
-        padding-bottom: 10px;
-        font-size: 30px;
-        font-weight: 600;
-        letter-spacing: 1px;
-
-        @media screen and (max-width: 800px) {
-           display: block;
-        }
-    }    
-    }    
+    max-width: 880px;
     }
-    .row{
-        @media screen and (max-width: 900px) {
-            margin-top: 0;
-            }
-        .col{
-            .colImg{
-                display: flex;
-                img{
-                    text-align: center;
-                    width: 240px;
-                    height: 240px;
-                    margin: 0 auto 30px;
-                    border-radius: 50%;
-                    padding: 8px;
-                    background: #dddddd none repeat scroll 0 0;
-                    @media screen and (max-width: 800px) {
-                        width: 200px;
-                        height: 200px;
-                      }
-                     } 
-                    }
-                h1{
-                    font-size: 25pt;
-                    font-weight: 700;
-                    letter-spacing: 1px; }
-                p{
-                    line-height: 1.6;
-                    margin: 0;
-                    font-weight: 400;
-                }
-                ul{
-                    margin: 0;
-                    padding: 0;
-                    list-style-type: none;
-                    margin-top: 10px;
-                    li{ 
-                    display: inline-block;
-                    margin-top: 15px;
-                    width: 49%;
-                    @media screen and (max-width: 1200px) {
-                        display: block;
-                        }
-                        @media screen and (max-width: 1058px) {
-                            width: 100%;
-                        }
-                    a{
-                        text-decoration: none;
-                        transition: 0.8s;
-                        color: #30475E;
-                    &:hover {
-                        letter-spacing: 3px;
-                        transition: 0.8s;  
-                    }
-                }
-            }
-                }
-                button{
-                    margin-top: 30px;
-                    background-color: #30475E;
-                }
+  .about-right-part {
+    @media screen and (max-width: 800px) {
+    display: block;
+    color: #f3ca2f;
     }
+  
+  .about-right-col {
+    @media screen and (max-width: 800px) {
+    padding-top: 30px;
+    }
+  .skills-title {
+    display: none;
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  
+    @media screen and (max-width: 800px) {
+    display: block;
+    }
+    }
+    }
+    }
+  .row {
+    @media screen and (max-width: 900px) {
+    margin-top: 0;
+    }
+  .col {
+  .colImg {
+    display: flex;
+    img {
+    text-align: center;
+    width: 240px;
+    height: 240px;
+    margin: 0 auto 30px;
+    border-radius: 50%;
+    padding: 8px;
+    background: #dddddd none repeat scroll 0 0;
+    @media screen and (max-width: 800px) {
+    width: 200px;
+    height: 200px;
+    }
+    }
+    }
+    h1 {
+    font-size: 25pt;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #f3ca2f;
+    }
+    p {
+    line-height: 1.6;
+    margin: 0;
+    font-weight: 400;
+    color: #fff;
   }
-}
-
-.skillbarfill{
+    ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-top: 10px;
+    color: #fff;
+    li {
+    display: inline-block;
+    margin-top: 15px;
+    width: 49%;
+    @media screen and (max-width: 1200px) {
+    display: block;
+    }
+    @media screen and (max-width: 1058px) {
     width: 100%;
-    margin:0 auto;
-    
-    .skill{
-        margin-bottom: 35px;
-        position: relative;
-        overflow-x:hidden;
-
-    p{
-        font-size: 17px;
-        font-weight: 400;
-        margin: 0;
     }
-    &::before{
-        width: 100%;
-        height: 5px;
-        content: "";
-        display: block;
-        position: absolute;
-        background: #959595;
-        bottom: 0;
-        }
-        .skill-bar{
-            width: 100%;
-            height: 5px;
-            background: #222 none repeat scroll 0 0 !important;
-            display: block;
-            position: relative;
-            span{
-                position: absolute;
-                top: -30px;
-                padding: 0;
-                font-size: 18px;
-                padding: 3px 0;
-                font-weight: 500;
-        }
-        }
-    .skill-bar {
-        position: relative;
+    a {
+    text-decoration: none;
+    transition: 0.8s;
+    color: #f3ca2f;
+    font-size: 0.975rem;
+    &:hover {
+    letter-spacing: 2px;
+    transition: 0.8s;
     }
-    .skill1{
-        width: 95%;
-        transition: width 2s ease-in-out 0s;
-        }
-    .skill2{
-        width: 85%;
     }
-    .skill3{
-        width: 60%;
     }
-    .skill4{
-        width: 80%;
     }
-   }
+    button {
+    margin-top: 30px;
+    background-color: #272727;
+    &:hover {
+    background-color: #f3ca2f;
+    }
+    }
+    }
+    }
+    }
+  
+  .skillbarfill {
+    width: 100%;
+    margin: 0 auto;
+  
+  .skill {
+    margin-bottom: 35px;
+    position: relative;
+    overflow-x: hidden;
+  
+    p {
+    font-size: 17px;
+    font-weight: 400;
+    margin: 0;
+    }
+    &::before {
+    width: 100%;
+    height: 5px;
+    content: "";
+    display: block;
+    position: absolute;
+    background: #959595;
+    bottom: 0;
+    }
+  .skill-bar {
+    width: 100%;
+    height: 5px;
+    background: #222 none repeat scroll 0 0 !important;
+    display: block;
+    position: relative;
+    span {
+    position: absolute;
+    top: -30px;
+    padding: 0;
+    font-size: 18px;
+    padding: 3px 0;
+    font-weight: 500;
+    }
+    }
+  .skill-bar {
+    position: relative;
   }
- }
+  .skill1 {
+    width: 95%;
+    transition: width 2s ease-in-out 0s;
+  }
+  .skill2 {
+    width: 85%;
+    }
+  .skill3 {
+    width: 60%;
+    }
+  .skill4 {
+    width: 80%;
+    }
+    }
+    }
+    }
+  
