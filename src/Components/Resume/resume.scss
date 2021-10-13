@@ -1,23 +1,22 @@
-
-.Resume{
-    background-color: #232931;
+.Resume {
+    background-color: #000000;
     padding-top: 100px;
     padding-bottom: 100px;
-
-.education-title{
-    text-align: center;
-    margin-bottom: 50px;
-    color: #FFF;
-    font-size: 26pt;
-    font-weight: 700;
+  
+    .education-title {
+      text-align: center;
+      margin-bottom: 50px;
+      color: #fff;
+      font-size: 26pt;
+      font-weight: 700;
     }
-
-.timeline{
-    position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
-
-    &::after{
+  
+    .timeline {
+      position: relative;
+      max-width: 1200px;
+      margin: 0 auto;
+  
+      &::after {
         content: "";
         position: absolute;
         width: 3px;
@@ -25,67 +24,71 @@
         bottom: 0;
         right: 0;
         left: 50%;
-        background-color: #30475E;
+        background-color: #272727;
         margin-left: -3px;
-        @media screen and (max-width:500px) {
-            display: none;
+        @media screen and (max-width: 500px) {
+          display: none;
         }
-    }
-.timeline-container{
-    padding: 10px 40px;
-    position: relative;
-    background-color: inherit;
-    width: 50%;
-    @media screen and (max-width:500px) {
-        width: 100%;
-    }
-
-
-.education-part{
-    padding: 18px;
-    border: solid 1px;
-    border-radius: 20px;
-    box-shadow: 2px 0px 10px 2px #30475E;
-    @media screen and (max-width:500px) {
-        margin-bottom: 15px;
-    }
-    
-
-.resume-item{
-    color: white;
-    .item-title{
-        font-weight: 600;
-        color:  inherit;
-        font-size: 1rem;
-        text-transform: uppercase;
+      }
+      .timeline-container {
+        padding: 10px 40px;
+        position: relative;
+        background-color: inherit;
+        width: 50%;
+        @media screen and (max-width: 500px) {
+          width: 100%;
         }
-        .item-details{
-            padding-bottom: 5px;
-            font-size: 0.8rem;
-            color:#78CC6D;
-            font-weight: 600;         
+  
+        .education-part {
+          padding: 18px;
+          border: solid 1px;
+          border-radius: 20px;
+          box-shadow: 2px 0px 10px 2px #272727;
+          @media screen and (max-width: 500px) {
+            margin-bottom: 15px;
+          }
+  
+          .resume-item {
+            color: white;
+            .item-title {
+              font-weight: 600;
+              color: inherit;
+              font-size: 1rem;
+              text-transform: uppercase;
+            }
+            .item-details {
+              padding-bottom: 5px;
+              font-size: 0.8rem;
+              color: #f3ca2f;
+              font-weight: 600;
+              span {
+                border: solid 1px #f3ca2f;
+                padding: 2px;
+                border-radius: 5px;
+                color: #fff;
+              }
+            }
+            .item-description {
+              color: inherit;
+              padding-top: 10px;
+              font-size: 0.875rem;
+            }
+          }
         }
-        .item-description{
-            color: inherit;
-            padding-top: 10px;
-            font-size: 0.875rem;
-        }
-  }
- }    
-}
-
-.left{
-    left: 0;
-}
-.right{
-    left: 50%;
-    &::after{
-        left: -9px;
-    }
-    @media screen and (max-width:500px) {
+      }
+  
+      .left {
         left: 0;
+      }
+      .right {
+        left: 50%;
+        &::after {
+          left: -9px;
+        }
+        @media screen and (max-width: 500px) {
+          left: 0;
+        }
+      }
     }
-}  
-
   }
-}
+  
