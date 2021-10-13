@@ -50,7 +50,7 @@ function App() {
         <About/>
         <Resume/> 
         <Works/>
-        <Blog/> 
+        {/* <Blog/>  */}
         <Contact/> 
         <Footer/>
         </div>
